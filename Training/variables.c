@@ -36,15 +36,28 @@ int main() {
     // printf("the distance home to uni is %.9lf\n", distance);
 
 
-    char grade = 'A';
-    char symbol = '!';
-    char symbol1 = '=';
-    char currency = '$';
+    // char grade = 'A';
+    // char symbol = '!';
+    // char symbol1 = '=';
+    // char currency = '$';
+    //
+    // printf("my grade is %c+\n", grade);
+    // printf("my fav symbol is %c\n", symbol);
+    // printf("the 2+2 is %c 4\n", symbol1);
+    // printf("the US currency is %c dollor sign\n", currency);
 
-    printf("my grade is %c+\n", grade);
-    printf("my fav symbol is %c\n", symbol);
-    printf("the 2+2 is %c 4\n", symbol1);
-    printf("the US currency is %c dollor sign\n", currency);
+
+
+    char name[] = "Abdirizak Adam Osman";
+    char uni[] = "Puntland State University";
+    char city[] = "Galkio";
+    char email[] = "aaoegal@gmail.com";
+
+
+    printf("My full name is %s\n", name);
+    printf("My university name is %s\n", uni);
+    printf("The city i born is %s\n", city);
+    printf("my email is %s\n", email);
 
 
 
