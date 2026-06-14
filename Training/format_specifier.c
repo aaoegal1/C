@@ -10,18 +10,28 @@ int main() {
     //                    and optional modifiers (width, precision, flags).
     //                    They control how data us displayed or interpreted.
 
-    int  age = 21;
-    float price = 19.99;
-    double pi = 3.14159265335;
-    char currency = '5';
-    char name[] = "Abdirizak";
+    // int  age = 21;
+    // float price = 19.99;
+    // double pi = 3.14159265335;
+    // char currency = '5';
+    // char name[] = "Abdirizak";
+    //
+    // printf("%d\n", age);
+    // printf("%f\n", price);
+    // printf("%lf\n", pi);
+    // printf("%c\n", currency);
+    // printf("%s\n", name);
+    //
+    //
 
-    printf("%d\n", age);
-    printf("%f\n", price);
-    printf("%lf\n", pi);
-    printf("%c\n", currency);
-    printf("%s\n", name);
 
+    // Width  (%04d or %+d)
 
+    int num1 = 1;
+    int num2 = 10;
+    int num3 = 100;
 
+    printf("%04d\n", num1);
+    printf("%04d\n", num2);
+    printf("%04d\n", num3);
 }
