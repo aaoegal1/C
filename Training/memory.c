@@ -29,7 +29,7 @@ int main() {
     printf("%p\n", &x);
     printf("%p\n", &a);
     printf("%p\n", &b);
-    printf("%p\n", &c);
+    printf("%p\n", &c); c
     printf("%p\n", &d);
     printf("%p\n", &e);
     printf("%p\n", &f);
