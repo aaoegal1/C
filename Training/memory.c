@@ -49,4 +49,16 @@ int main() {
     // printf("%p\n", p);
     //
     // return 0;
+
+    int x = 5;
+    int *p = &x;
+
+    printf("%d\n", *p); // *p = Tag address-ka ku jira p,
+                              // kadib soo qaad value-ga meeshaas yaal
+//  1. p → 1000
+//  2. Tag address 1000
+//  3. Halkaas waxaa yaal 5
+//  4. Soo celi 5
+//
+
 }
