@@ -5,4 +5,6 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(C_Coding
         Training/main.c
-        Training/variables.c)
+        Training/variables.c
+        Training/format_specifier.c
+        Training/format_specifier.c)
