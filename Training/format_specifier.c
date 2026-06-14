@@ -27,11 +27,23 @@ int main() {
 
     // Width  (%04d or %+d)
 
-    int num1 = 1;
-    int num2 = 10;
-    int num3 = 100;
+    // int num1 = 1;
+    // int num2 = 10;
+    // int num3 = 100;
+    //
+    // printf("%04d\n", num1);
+    // printf("%04d\n", num2);
+    // printf("%04d\n", num3);
 
-    printf("%04d\n", num1);
-    printf("%04d\n", num2);
-    printf("%04d\n", num3);
+
+    // Precision (%.2 = print only two degit after the decimal)
+
+    float price1 = 19.99;
+    float price2 = 1.50;
+    float price3 = -100.00;
+
+    printf("%.2f\n", price1);
+    printf("%.2f\n", price2);
+    printf("%.2f\n", price3);
+
 }
