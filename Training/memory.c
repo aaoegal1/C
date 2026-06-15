@@ -70,14 +70,25 @@ int main() {
  // printf("%d\n", x); // ouput waa 20.
  // printf("%d\n", *p);
 
- int x = 5;
- int y = 10;
+ // int x = 5;
+ // int y = 10;
+ //
+ // int *p = &x;
+ //
+ // p = &y; // Pointer-ka p hadda ha tilmaamo y
+ //
+ // printf("%d\n", *p);
 
+ int x = 25;
  int *p = &x;
 
- p = &y; // Pointer-ka p hadda ha tilmaamo y
-
+ printf("%d\n", x);
  printf("%d\n", *p);
+ printf("%d\n", &x);
+
+
+
+
 
 
 }
