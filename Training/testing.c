@@ -20,7 +20,14 @@ int main() {
 
     p = &y;  // u wareeg pointer laguu tilmaamay oo ah y
 
-    printf("*p = %d\n", *p); 
+    printf("*p = %d\n", *p);
+
+
+// &x → address-ka x
+// p → pointer haya address
+// *p → value-ga meesha pointer-ku tilmaamayo
+// p = &y → pointer-ka dhaqaaq
+// *p = value → xogta beddel
 
     return 0;
 }
