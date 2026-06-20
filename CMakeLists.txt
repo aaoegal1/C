@@ -8,4 +8,5 @@ add_executable(C_Coding
         Training/variables.c
         Training/format_specifier.c
         Training/format_specifier.c
-        Training/memory.c)
+        Training/memory.c
+        Training/testing.c)
